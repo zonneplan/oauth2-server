@@ -277,6 +277,11 @@ class AuthorizationServer implements EmitterAwareInterface
         $this->defaultScope = $defaultScope;
     }
 
+    public function getEncryptionKey()
+    {
+        return $this->encryptionKey;
+    }
+
     /**
      * Sets whether to revoke refresh tokens or not (for all grant types).
      *
