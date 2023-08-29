@@ -32,10 +32,9 @@ This library was created by Alex Bilbie. Find him on Twitter at [@alexbilbie](ht
 
 The latest version of this package supports the following versions of PHP:
 
-* PHP 7.2
-* PHP 7.3
-* PHP 7.4
 * PHP 8.0
+* PHP 8.1
+* PHP 8.2
 
 The `openssl` and `json` extensions are also required.
 
@@ -70,7 +69,7 @@ We use [Github Actions](https://github.com/features/actions), [Scrutinizer](http
 * [Laravel Passport](https://github.com/laravel/passport)
 * [OAuth 2 Server for CakePHP 3](https://github.com/uafrica/oauth-server)
 * [OAuth 2 Server for Mezzio](https://github.com/mezzio/mezzio-authentication-oauth2)
-* [Trikoder OAuth 2 Bundle (Symfony)](https://github.com/trikoder/oauth2-bundle)
+* [OAuth 2 Server Bundle (Symfony)](https://github.com/thephpleague/oauth2-server-bundle)
 * [Heimdall for CodeIgniter 4](https://github.com/ezralazuardy/heimdall)
 
 ## Changelog
