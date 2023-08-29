@@ -187,7 +187,7 @@ class DeviceCodeGrantTest extends TestCase
         $deviceCodeRepositoryMock = $this->getMockBuilder(DeviceCodeRepositoryInterface::class)->getMock();
         $deviceCodeEntity = new DeviceCodeEntity();
         $deviceCodeEntity->setUserIdentifier('baz');
-        $deviceCodeRepositoryMock->method('getDeviceCodeEntityByDeviceCode')->willReturn($deviceCodeEntity);
+        $deviceCodeRepositoryMock->method('getDeviceCodeByIdentifier')->willReturn($deviceCodeEntity);
 
         $scope = new ScopeEntity();
         $scopeRepositoryMock = $this->getMockBuilder(ScopeRepositoryInterface::class)->getMock();
@@ -276,7 +276,7 @@ class DeviceCodeGrantTest extends TestCase
         $deviceCodeRepositoryMock = $this->getMockBuilder(DeviceCodeRepositoryInterface::class)->getMock();
         $deviceCodeEntity = new DeviceCodeEntity();
         $deviceCodeEntity->setUserIdentifier('baz');
-        $deviceCodeRepositoryMock->method('getDeviceCodeEntityByDeviceCode')->willReturn($deviceCodeEntity);
+        $deviceCodeRepositoryMock->method('getDeviceCodeByIdentifier')->willReturn($deviceCodeEntity);
 
         $scope = new ScopeEntity();
         $scopeRepositoryMock = $this->getMockBuilder(ScopeRepositoryInterface::class)->getMock();
